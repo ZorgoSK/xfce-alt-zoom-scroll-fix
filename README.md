@@ -1,6 +1,8 @@
-# xfce-alt-scroll
+# xfce-alt-zoom-scroll-fix
 
-Small native X11 tool for XFCE `Alt + two-finger touchpad scroll` desktop zoom, without passing smooth scrolling to GTK, Electron or virtual-machine windows.
+An **Alt-zoom-scroll fix for XFCE/X11**: a small native C filter that keeps `Alt + two-finger touchpad scroll` desktop zoom working without also scrolling GTK, Electron or virtual-machine windows. Normal smooth scrolling remains available when Alt is released.
+
+The executable and Debian package retain the name **`xfce-alt-scroll`** for installation and autostart compatibility.
 
 **Version:** 0.1.0 (Debian package 0.1.0-1). The original package was installed and confirmed working after reboot by its user on an ASUS laptop running MX Linux, XFCE 4.20 and X11. This is a single-machine success report, not a general compatibility guarantee. C port of a working Python experiment. This version supports auto-discovered **touchpads only**, not physical mouse wheels. Neither Wayland nor other window managers are supported. The `.deb` is an experimental build for Debian Bookworm/MX Linux or newer on amd64, not an official Xfce package.
 
