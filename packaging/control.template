@@ -1,0 +1,11 @@
+Package: xfce-alt-scroll
+Version: 0.1.0-1
+Section: x11
+Priority: optional
+Architecture: amd64
+Maintainer: Local experimental build <root@localhost>
+Depends: libc6 (>= 2.34), libx11-6, libxtst6, xinput
+Description: XFCE Alt + touchpad scroll desktop zoom filter (experimental)
+ Native X11 C utility to preserve smooth scrolling unless Alt is held,
+ then generate step-based desktop zoom instead of scrolling applications.
+ Supports multitouch touchpads; physical mouse wheels not yet supported.

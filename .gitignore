@@ -1,0 +1,16 @@
+/tmp/
+/build/
+*.o
+__pycache__/
+/dist/
+/xfce-alt-scroll
+
+# Local recovery archives, provenance and session notes
+/AGENTS.md
+/SHA256SUMS
+/SOURCE-SHA256SUMS
+/baseline/
+/docs/
+/handoffs/
+/reference/
+/sources/
