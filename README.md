@@ -6,6 +6,12 @@ This small C filter fixes that: holding Alt zooms the desktop, and releasing Alt
 
 For **XFCE on X11 with a libinput touchpad**. The package is for **Debian/MX Linux, amd64**. Physical mouse wheels and Wayland are not supported.
 
+## Demo
+
+[![Watch my XFCE Alt + scroll demo](media/alt-zoom-scroll-preview.gif)](media/alt-zoom-scroll-demo.mp4)
+
+My desktop recording: **[watch the full video](media/alt-zoom-scroll-demo.mp4)** (39 seconds, with audio). The animated preview above is silent.
+
 ## Install
 
 1. Download [xfce-alt-scroll_0.1.0-1_amd64.deb](https://github.com/ZorgoSK/xfce-alt-zoom-scroll-fix/releases/download/v0.1.0/xfce-alt-scroll_0.1.0-1_amd64.deb).
